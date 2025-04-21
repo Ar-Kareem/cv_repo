@@ -2,21 +2,35 @@
 # Site settings
 # ----------------------------------------------------------------------------- 
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+title: Portfolio # the website title (if blank, full name will be used instead)
+first_name: Abdulrahman
+middle_name: 
+last_name: Alabdulkareem
+contact_note: 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Hi, I’m Abdulrahman Alabdulkareem. 
+  My friends call me Abdul.
+  I’m an AI researcher focused on understanding LLM’s and Deep Learning models. 
+  I graduated from MIT with a dual M.S. in EECS and CSE as part of the InfoLab team and I currently work at Intelmatix.
+
+  EXPERIENCE
+
+  AI Scientist → Intelmatix, Riyadh, 2024-Current
+  AI Research → InfoLab @ MIT, Cambridge, 2022-2024
+  Dual M.S. (GPA 5.0/5.0) → MIT, Cambridge, 2022-2024
+  Expl. Sys. Analyst → Aramco, Dhahran, 2020-2022
+  AI Internship → CCES, Cambridge/Riyadh, 2019-2019
+  AI Research → Honorio’s lab @ Purdue, West Lafayette, 2019-2020
+  Dual-major B.S. (GPA 4.0/4.0) → Purdue, West Lafayette, 2016-2020
+
+
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: assets/img/favicon.ico.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://ar-kareem.github.io # the base hostname & protocol for your site
 baseurl: /cv_repo # the subpath of your site, e.g. /blog/. Leave blank for root
