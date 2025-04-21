@@ -1,0 +1,40 @@
+<div 
+  class="row justify-content-sm-center {% if alignment == 0 %}text-left{% else %}text-right{% endif %}" 
+  style="margin-top:0.75cm; margin-bottom:0.75cm;"
+>
+  {% if alignment == 0 %}
+    {% if project.img %}
+      <div class="col-sm-4 mt-3 mt-md-0" style="display: flex; flex-direction: column; justify-content: center;">
+      {%
+        include figure.liquid
+        loading="eager"
+          path=project.img
+          sizes = "250px"
+          alt="project thumbnail"
+          class="img-fluid rounded z-depth-1"
+        %}
+      </div>
+    {% endif %}
+    <div class="col-sm-8 mt-3 mt-md-0">
+      <h2 class="project_title">{{ project.title }}</h2>
+      <p class="description">{{ project.description }}</p>
+    </div>
+  {% else %}
+    <div class="col-sm-8 mt-3 mt-md-0">
+      <h2 class="project_title">{{ project.title }}</h2>
+      <p class="description">{{ project.description }}</p>
+    </div>
+    {% if project.img %}
+      <div class="col-sm-4 mt-3 mt-md-0" style="display: flex; flex-direction: column; justify-content: center;">
+      {%
+        include figure.liquid
+        loading="eager"
+          path=project.img
+          sizes = "250px"
+          alt="project thumbnail"
+          class="img-fluid rounded z-depth-1"
+        %}
+      </div>
+    {% endif %}
+  {% endif %}
+</div>
