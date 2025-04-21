@@ -4,106 +4,68 @@
 @article{brainbits2024,
   title={BrainBits: How Much of the Brain are Generative Reconstruction Methods Using?},
   author={Mayo, D. and Wang, C. and Harbin, A. and Alabdulkareem, A. and Shaw, A. and Katz, B. and Barbu, A.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
+  abstract={When evaluating stimuli reconstruction results it is tempting to assume that higher fidelity text and image generation is due to an improved understanding of the brain or more powerful signal extraction from neural recordings. However, in practice, new reconstruction methods could improve performance for at least three other reasons: learning more about the distribution of stimuli, becoming better at reconstructing text or images in general, or exploiting weaknesses in current image and/or text evaluation metrics. Here we disentangle how much of the reconstruction is due to these other factors vs. productively using the neural recordings. We introduce BrainBits, a method that uses a bottleneck to quantify the amount of signal extracted from neural recordings that is actually necessary to reproduce a method's reconstruction fidelity. We find that it takes surprisingly little information from the brain to produce reconstructions with high fidelity. In these cases, it is clear that the priors of the methods' generative models are so powerful that the outputs they produce extrapolate far beyond the neural signal they decode. Given that reconstructing stimuli can be improved independently by either improving signal extraction from the brain or by building more powerful generative models, improving the latter may fool us into thinking we are improving the former. We propose that methods should report a method-specific random baseline, a reconstruction ceiling, and a curve of performance as a function of bottleneck size, with the ultimate goal of using more of the neural recordings.},
   journal={NeurIPS},
   year={2024},
   additional_info={. *Accepted*},
   pdf={https://arxiv.org/pdf/2411.02783},
   poster={https://nips.cc/virtual/2024/poster/95678},
   selected={true},
-
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+
+@article{securellm2024,
+  title={SecureLLM: Using Compositionality to Build Provably Secure Language Models for Private, Sensitive, and Secret Data},
+  author={Alabdulkareem, A. and Arnold, C. and Lee, Y. and Feenstra, P. and Katz, B. and Barbu, A.},
+  abstract={Traditional security mechanisms isolate resources from users who should not access them. We reflect the compositional nature of such security mechanisms back into the structure of LLMs to build a provably secure LLM; that we term SecureLLM. Other approaches to LLM safety attempt to protect against bad actors or bad outcomes, but can only do so to an extent making them inappropriate for sensitive data. SecureLLM blends access security with fine-tuning methods. Each data silo has associated with it a separate fine-tuning and a user has access only to the collection of fine-tunings that they have permission for. The model must then perform on compositional tasks at the intersection of those data silos with the combination of those individual fine-tunings. While applicable to any task like document QA or making API calls, in this work we concern ourselves with models that learn the layouts of new SQL databases to provide natural-language-to-SQL translation capabilities. Existing fine-tuning composition methods fail in this challenging environment, as they are not well-equipped for handling compositional tasks. Compositionality remains a challenge for LLMs. We contribute both a difficult new compositional natural-language-to-SQL translation task and a new perspective on LLM security that allows models to be deployed to secure environments today.},
+  journal={Arxiv},
+  year={2024},
+  additional_info={. *In Peer-review*},
+  pdf={https://arxiv.org/pdf/2405.09805},
   selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
   bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
 }
 
-@book{przibram1967letters,
+@article{poisoning2024,
+  title={Poisoning the Well: Defensive Poisoning of Undesirable Abilities to Enhance Safety and Alignment},
+  author={Alabdulkareem, A. and Subramaniam, V. and Katz, B. and Barbu, A.},
+  year={2024},
+  additional_info={patent in progress, not for public release yet},
+  selected={true},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+}
+
+
+
+@article{anomaly2024,
+  title={Novel Unsupervised Anomaly Detection using Secure-LLM},
+  author={Alabdulkareem, A. and Arnold, C. and Katz, B. and Barbu, A.},
+  year={2024},
+  additional_info={patent in progress, not for public release yet},
+  selected={true},
+  bibtex_show={true},
+}
+
+@article{bayesian2023,
+  title={Identifying Symbolic Communication in Simulated Teacher-Student Environment by Bayesian Modeling},
+  author={Alabdulkareem, A. and Alharbi, M. and Almazroa, N.},
+  abstract={Symbolic communication is an inherent and intuitive aspect of the human experience. In this paper, we propose, implement, and run inference on a probabilistic Bayesian model for identifying symbolic communication. We focused on a recently proposed simulated teacher-student environment where we have access to human data. We show several qualitative and quantitative results that compare our model with human judgments. These results suggest that our approach is reasonably effective at identifying symbolic communication with adequate accuracy. We utilize the Gen probabilistic programming framework for the implementation of our model.},
+  year={2023},
+  additional_info={Preprint - In Preparation},
+  pdf={paper_symbolic.pdf},
+  selected={true},
+  bibtex_show={true},
+}
+
+@article{bayesian2021,
+  title={Information-theoretic lower bounds for zero-order stochastic gradient estimation},
+  author={Alabdulkareem, A. and Honorio, J.},
+  abstract={In this paper we analyze the necessary number of samples to estimate the gradient of any multidimensional smooth (possibly non-convex) function in a zero-order stochastic oracle model. In this model, an estimator has access to noisy values of the function, in order to produce the estimate of the gradient. We also provide an analysis on the sufficient number of samples for the finite difference method, a classical technique in numerical linear algebra. For T samples and d dimensions, our information-theoretic lower bound is Ω(√d/T). We show that the finite difference method for a bounded-variance oracle has rate O(d^(4/3) / √T) for functions with zero third and higher order derivatives. These rates are tight for Gaussian oracles. Thus, the finite difference method is not minimax optimal, and therefore there is space for the development of better gradient estimation methods. A full version of this paper is accessible at: https://arxiv.org/pdf/2003.13881.pdf},
+  journal={IEEE ISIT},
+  year={2021},
+  additional_info={. *Accepted*},
+  pdf={https://ieeexplore.ieee.org/abstract/document/9517799},
+  selected={true},
+  bibtex_show={true},
 }
