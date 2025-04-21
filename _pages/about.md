@@ -31,7 +31,7 @@ I’m an AI researcher focused on understanding LLM’s and Deep Learning models
 
 I graduated from MIT with a dual M.S. in EECS and CSE as part of the InfoLab team and I currently work at Intelmatix.
 
-# Experience:
+# Experience
 
 - AI Scientist → Intelmatix, Riyadh, 2024-Current
 - AI Research → InfoLab @ MIT, Cambridge, 2022-2024

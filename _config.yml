@@ -2,7 +2,7 @@
 # Site settings
 # ----------------------------------------------------------------------------- 
 
-title: Abdulrahman Alabdulkareem # the website title (if blank, full name will be used instead)
+title: <span class="font-weight-bold">Abdulrahman</span> Alabdulkareem # the website title (if blank, full name will be used instead)
 first_name: Abdulrahman
 middle_name: 
 last_name: Alabdulkareem
@@ -33,7 +33,7 @@ url: https://ar-kareem.github.io # the base hostname & protocol for your site
 baseurl: /cv_repo/ # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-back_to_top: true # set to false to disable the back to top button
+back_to_top: false # set to false to disable the back to top button
 
 # -----------------------------------------------------------------------------
 # Theme
