@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: 
 
@@ -27,9 +27,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I’m Abdulrahman Alabdulkareem. 
-My friends call me Abdul.
+Hi, I’m Abdulrahman Alabdulkareem. My friends call me Abdul.
+
 I’m an AI researcher focused on understanding LLM’s and Deep Learning models. 
+
+
 I graduated from MIT with a dual M.S. in EECS and CSE as part of the InfoLab team and I currently work at Intelmatix.
 
 # Experience:
