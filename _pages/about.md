@@ -32,12 +32,12 @@ My friends call me Abdul.
 I’m an AI researcher focused on understanding LLM’s and Deep Learning models. 
 I graduated from MIT with a dual M.S. in EECS and CSE as part of the InfoLab team and I currently work at Intelmatix.
 
-Experience:
+# Experience:
 
-AI Scientist → Intelmatix, Riyadh, 2024-Current
-AI Research → InfoLab @ MIT, Cambridge, 2022-2024
-Dual M.S. (GPA 5.0/5.0) → MIT, Cambridge, 2022-2024
-Expl. Sys. Analyst → Aramco, Dhahran, 2020-2022
-AI Internship → CCES, Cambridge/Riyadh, 2019-2019
-AI Research → Honorio’s lab @ Purdue, West Lafayette, 2019-2020
-Dual-major B.S. (GPA 4.0/4.0) → Purdue, West Lafayette, 2016-2020
+- AI Scientist → Intelmatix, Riyadh, 2024-Current
+- AI Research → InfoLab @ MIT, Cambridge, 2022-2024
+- Dual M.S. (GPA 5.0/5.0) → MIT, Cambridge, 2022-2024
+- Expl. Sys. Analyst → Aramco, Dhahran, 2020-2022
+- AI Internship → CCES, Cambridge/Riyadh, 2019-2019
+- AI Research → Honorio’s lab @ Purdue, West Lafayette, 2019-2020
+- Dual-major B.S. (GPA 4.0/4.0) → Purdue, West Lafayette, 2016-2020
