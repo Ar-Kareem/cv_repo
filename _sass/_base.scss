@@ -1418,3 +1418,28 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+// ar-kareem added
+.my-links-section {
+  font-family: sans-serif;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+
+  .label {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  .link {
+    color: #007bff;
+    text-decoration: underline;
+    font-size: 1.5rem;
+
+    &:hover {
+      color: #00e1ff;
+    }
+  }
+}

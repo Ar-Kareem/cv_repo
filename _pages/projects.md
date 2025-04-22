@@ -8,7 +8,7 @@ nav_order: 2
 my_special_view: true
 ---
 
-This page contains a showcase of some selected projects that I undertook throughout the years.
+<!-- This page contains a showcase of some selected projects that I undertook throughout the years. -->
 <div class="projects">
   {% if page.my_special_view %}
     {% assign sorted_projects = site.projects | sort: "importance" %}

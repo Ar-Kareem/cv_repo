@@ -7,7 +7,7 @@
       <div class="col-sm-4 mt-3 mt-md-0" style="display: flex; flex-direction: column; justify-content: center;">
       {%
         include figure.liquid
-        loading="eager"
+          loading="eager"
           path=project.img
           sizes = "250px"
           alt="project thumbnail"
@@ -18,11 +18,31 @@
     <div class="col-sm-8 mt-3 mt-md-0">
       <h2 class="project_title">{{ project.title }}</h2>
       <p class="description">{{ project.description }}</p>
+      {% if project.projectLinks %}
+      <div class="my-links-section">
+        <span class="label">Links:</span>
+        {% for name_url_pair in project.projectLinks %}
+          {% assign name = name_url_pair[0] %}
+          {% assign url = name_url_pair[1] %}
+          <a class="link" href="{{ url }}" target="_blank" rel="noopener noreferrer">{{ name }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
     </div>
   {% else %}
     <div class="col-sm-8 mt-3 mt-md-0">
       <h2 class="project_title">{{ project.title }}</h2>
       <p class="description">{{ project.description }}</p>
+      {% if project.projectLinks %}
+      <div class="my-links-section">
+        <span class="label">Links:</span>
+        {% for name_url_pair in project.projectLinks %}
+          {% assign name = name_url_pair[0] %}
+          {% assign url = name_url_pair[1] %}
+          <a class="link" href="{{ url }}" target="_blank" rel="noopener noreferrer">{{ name }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
     </div>
     {% if project.img %}
       <div class="col-sm-4 mt-3 mt-md-0" style="display: flex; flex-direction: column; justify-content: center;">
