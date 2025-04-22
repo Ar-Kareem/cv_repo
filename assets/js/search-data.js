@@ -3,14 +3,14 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "About",
+    id: "nav-home",
+    title: "Home",
     section: "Navigation",
     handler: () => {
       window.location.href = "/cv_repo/";
     },
-  },{id: "nav-projects",
-          title: "Projects",
+  },{id: "nav-my-projects",
+          title: "My Projects",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -29,6 +29,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv_repo/assets/pdf/resume.pdf";
+          },
+        },{id: "nav-linkedin",
+          title: "LinkedIn",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv_repo/https:/www.linkedin.com/in/abdulrahman-alabdulkareem-493a8143/";
           },
         },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
@@ -108,9 +115,9 @@ ninja.data = [{
           description: "In this work, we give rise to the motivation of the root-finding problem and the use of Newton’s method within this context. Then, we discuss why one might go beyond those methods to introduce Quisi-Newton methods to which we rigorously derive both types of Broyden Updates along with an efficient implementation of the algorithm. We run my implementation of both types of Broyden Updates along with Newton’s method and an implementation of Broyden Updates provided by the Scipy library on two realistic real-world problems. We finally discuss the application of Broyden Updates in many different areas of science and the different variants of the algorithm that were later proposed.",
           section: "Projects",handler: () => {
               window.location.href = "/cv_repo/projects/4_project/";
-            },},{id: "projects-extending-securellm-using-advanced-finetuning-methods",
-          title: 'Extending SecureLLM using Advanced Finetuning Methods',
-          description: "Security is an incredibly important issue that exists in the current LLM scene. Any practical use case of an LLM that includes databases with multiple access levels introduces a possible security risk to the system. While multiple works providing possible methods to ’detoxify’ or add guardrails to LLMs exist, those methods can provide no provable guarantee of not leaking data. We extend on our prior published work, SecureLLM, which is an approach that guarantees security with no data leakage by composing appropriate fine-tuned models. The power of SecureLLM relies heavily on the fine-tuned models used for composition, thus we present a thorough analysis and benchmarking of several widespread LLM fine-tuning techniques, highlighting strengths and weaknesses of the approach compared to an insecure generalized model trained on all the data which acts as an upper bound in performance. We present results showing that our SecureLLM composition can get close to the performance of the generalized model and sometimes match it under a distributional shift.",
+            },},{id: "projects-",
+          title: '',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/cv_repo/projects/5_project/";
             },},{id: "projects-numerical-modelling-of-aircraft-evacuations",
