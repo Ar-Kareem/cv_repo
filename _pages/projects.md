@@ -17,10 +17,8 @@ my_special_view: true
       {% include my_projects_custom.liquid alignment=alignment %}
     {% endfor %}
   {% else %}
-</div>
 
   <!-- pages/projects.md -->
-  <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
     <!-- Display categorized projects -->
     {% for category in page.display_categories %}
@@ -72,5 +70,5 @@ my_special_view: true
     </div>
     {% endif %}
   {% endif %}
-  </div>
 {% endif %}
+</div>

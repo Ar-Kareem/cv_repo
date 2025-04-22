@@ -4,7 +4,7 @@
 >
   {% if alignment == 0 %}
     {% if project.img %}
-      <div class="col-sm-4 mt-3 mt-md-0" style="display: flex; flex-direction: column; justify-content: center;">
+      <div class="col-sm-6 mt-3 mt-md-0" style="display: flex; flex-direction: column; justify-content: center;">
       {%
         include figure.liquid
           loading="eager"
@@ -20,7 +20,7 @@
   {% else %}
     {% include my_projects_text.liquid %}
     {% if project.img %}
-      <div class="col-sm-4 mt-3 mt-md-0" style="display: flex; flex-direction: column; justify-content: center;">
+      <div class="col-sm-6 mt-3 mt-md-0" style="display: flex; flex-direction: column; justify-content: center;">
       {%
         include figure.liquid
         loading="eager"
