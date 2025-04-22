@@ -13,8 +13,10 @@ my_special_view: true
   {% if page.my_special_view %}
     {% assign sorted_projects = site.projects | sort: "importance" %}
     {% for project in sorted_projects %}
-      {% assign alignment = forloop.index0 | modulo: 2 | plus: 0 %}
-      {% include my_projects_custom.liquid alignment=alignment %}
+      <div class="single-project">
+        {% assign alignment = forloop.index0 | modulo: 2 | plus: 0 %}
+        {% include my_projects_custom.liquid alignment=alignment %}
+      </div>
     {% endfor %}
   {% else %}
 
