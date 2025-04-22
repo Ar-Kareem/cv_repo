@@ -6,7 +6,7 @@ description: >
 img: assets/img/PATHFIND.png
 importance: 12
 projectLinks: [
-    ['Slides', '/assets/pdf/pdf_PATHFIND.pptx'], 
-    ['PDF', '/assets/pdf/pdf_PATHFIND.pdf'], 
+    ['Slides', '/assets/pdf/pdf_PATHFIND.pptx', true], 
+    ['PDF', '/assets/pdf/pdf_PATHFIND.pdf', true], 
 ]
 ---

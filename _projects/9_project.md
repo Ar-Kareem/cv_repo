@@ -6,6 +6,6 @@ description: >
 img: assets/img/BAYES.png
 importance: 9
 projectLinks: [
-    ['PDF', '/assets/pdf/pdf_BAYES.pdf'], 
+    ['PDF', '/assets/pdf/pdf_BAYES.pdf', true], 
 ]
 ---

@@ -6,7 +6,7 @@ description: >
 img: assets/img/SECURELLM.png
 importance: 5
 projectLinks: [
-    ['Poster', '/assets/pdf/pdf_SECURELLM_poster.pdf']
-    ['PDF', '/assets/pdf/pdf_SECURELLM.pdf'], 
+    ['Poster', '/assets/pdf/pdf_SECURELLM_poster.pdf', true]
+    ['PDF', '/assets/pdf/pdf_SECURELLM.pdf', true], 
 ]
 ---

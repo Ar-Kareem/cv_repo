@@ -6,6 +6,6 @@ description: >
 img: assets/img/SYMBOLIC.png
 importance: 11
 projectLinks: [
-    ['PDF', '/assets/pdf/paper_symbolic.pdf'], 
+    ['PDF', '/assets/pdf/paper_symbolic.pdf', true], 
 ]
 ---

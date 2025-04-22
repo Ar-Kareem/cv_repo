@@ -6,6 +6,6 @@ description: >
 img: assets/img/VQA2.png
 importance: 7
 projectLinks: [
-    ['PDF', '/assets/pdf/pdf_VQA.pdf'], 
+    ['PDF', '/assets/pdf/pdf_VQA.pdf', true], 
 ]
 ---

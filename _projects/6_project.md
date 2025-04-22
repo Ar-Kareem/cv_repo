@@ -6,6 +6,6 @@ description: >
 img: assets/img/EVACUATION2.png
 importance: 6
 projectLinks: [
-    ['PDF', '/assets/pdf/pdf_EVACUATION.pdf'], 
+    ['PDF', '/assets/pdf/pdf_EVACUATION.pdf', true], 
 ]
 ---

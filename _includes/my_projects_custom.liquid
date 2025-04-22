@@ -15,35 +15,10 @@
         %}
       </div>
     {% endif %}
-    <div class="col-sm-8 mt-3 mt-md-0">
-      <h2 class="my-project_title">{{ project.title }}</h2>
-      <p class="my-description">{{ project.description }}</p>
-      {% if project.projectLinks %}
-      <div class="my-links-section">
-        <span class="label">Links:</span>
-        {% for name_url_pair in project.projectLinks %}
-          {% assign name = name_url_pair[0] %}
-          {% assign url = name_url_pair[1] %}
-          <a class="link" href="{{ url }}" target="_blank" rel="noopener noreferrer">{{ name }}</a>
-        {% endfor %}
-      </div>
-      {% endif %}
-    </div>
+    {% include my_projects_text.liquid %}
+
   {% else %}
-    <div class="col-sm-8 mt-3 mt-md-0">
-      <h2 class="my-project_title">{{ project.title }}</h2>
-      <p class="my-description">{{ project.description }}</p>
-      {% if project.projectLinks %}
-      <div class="my-links-section">
-        <span class="label">Links:</span>
-        {% for name_url_pair in project.projectLinks %}
-          {% assign name = name_url_pair[0] %}
-          {% assign url = name_url_pair[1] %}
-          <a class="link" href="{{ url }}" target="_blank" rel="noopener noreferrer">{{ name }}</a>
-        {% endfor %}
-      </div>
-      {% endif %}
-    </div>
+    {% include my_projects_text.liquid %}
     {% if project.img %}
       <div class="col-sm-4 mt-3 mt-md-0" style="display: flex; flex-direction: column; justify-content: center;">
       {%

@@ -6,7 +6,7 @@ description: >
 img: assets/img/CFG.png
 importance: 10
 projectLinks: [
-    ['PDF', '/assets/pdf/pdf_CFG.pdf'], 
-    ['GitHub', 'https://github.com/Ar-Kareem/Penn-Tree-Bank-Project'], 
+    ['PDF', '/assets/pdf/pdf_CFG.pdf', true], 
+    ['GitHub', 'https://github.com/Ar-Kareem/Penn-Tree-Bank-Project', false], 
 ]
 ---

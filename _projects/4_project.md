@@ -6,6 +6,6 @@ description: >
 img: assets/img/NEWTON.png
 importance: 4
 projectLinks: [
-    ['PDF', '/assets/pdf/pdf_NEWTON.pdf'], 
+    ['PDF', '/assets/pdf/pdf_NEWTON.pdf', true], 
 ]
 ---

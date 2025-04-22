@@ -6,6 +6,6 @@ description: >
 img: assets/img/MCMC.png
 importance: 8
 projectLinks: [
-    ['Slides', '/assets/pdf/pdf_MCMC.pptx'], 
+    ['Slides', '/assets/pdf/pdf_MCMC.pptx', true], 
 ]
 ---

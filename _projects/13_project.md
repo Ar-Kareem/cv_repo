@@ -7,6 +7,6 @@ description: >
 img: assets/img/YOONPRESENT.png
 importance: 13
 projectLinks: [
-    ['Slides', '/assets/pdf/pdf_YOONPRESENT.pdf'], 
+    ['Slides', '/assets/pdf/pdf_YOONPRESENT.pdf', true], 
 ]
 ---
