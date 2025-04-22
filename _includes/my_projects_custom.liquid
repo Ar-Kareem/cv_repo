@@ -1,5 +1,5 @@
 <div 
-  class="row justify-content-sm-center {% if alignment == 0 %}text-left{% else %}text-right{% endif %}" 
+  class="row justify-content-sm-center text-left" 
   style="margin-top:0.75cm; margin-bottom:0.75cm;"
 >
   {% if alignment == 0 %}
@@ -16,8 +16,8 @@
       </div>
     {% endif %}
     <div class="col-sm-8 mt-3 mt-md-0">
-      <h2 class="project_title">{{ project.title }}</h2>
-      <p class="description">{{ project.description }}</p>
+      <h2 class="my-project_title">{{ project.title }}</h2>
+      <p class="my-description">{{ project.description }}</p>
       {% if project.projectLinks %}
       <div class="my-links-section">
         <span class="label">Links:</span>
@@ -31,8 +31,8 @@
     </div>
   {% else %}
     <div class="col-sm-8 mt-3 mt-md-0">
-      <h2 class="project_title">{{ project.title }}</h2>
-      <p class="description">{{ project.description }}</p>
+      <h2 class="my-project_title">{{ project.title }}</h2>
+      <p class="my-description">{{ project.description }}</p>
       {% if project.projectLinks %}
       <div class="my-links-section">
         <span class="label">Links:</span>
