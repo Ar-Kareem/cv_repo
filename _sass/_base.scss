@@ -1421,7 +1421,7 @@ figure.cover {
 
 // ar-kareem added
 .my-post {
-  font-family: 'Ovo';
+  font-family: 'Ovo', serif;
   .post-title {
     text-align: center;
   }
@@ -1480,4 +1480,32 @@ figure.cover {
 // When JS toggles `.in-view`, we play the fadeInUp animation:
 .single-project.in-view {
   animation: fadeInUp 0.6s forwards ease-out;
+}
+
+/* Call-to-action section styling */
+.more-section {
+  font-family: 'Ovo', serif;
+  text-align: center;
+  background-color: #2b2b2b;
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+
+  h2 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .more-link {
+    color: var(--global-text-color);
+    text-decoration: underline;
+
+    &:hover {
+      color: #00e1ff;
+    }
+  }
 }
