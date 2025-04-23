@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ar-kareem.github.io/cv_repo//sitemap.xml
+Sitemap: https://arkareem.com/sitemap.xml
