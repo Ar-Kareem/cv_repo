@@ -1,6 +1,7 @@
 ---
 layout: my-page
 title: My Projects
+tab_title: Projects
 permalink: /projects/
 description: 
 nav: true
